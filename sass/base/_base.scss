@@ -1,0 +1,19 @@
+@import "../abstracts/variables";
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+ html {
+     // This defines what 1rem is equal
+     font-size: 62.5%;
+ }
+
+body {
+    padding: 3rem;
+    box-sizing: border-box;
+}
